@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="cheesecake"
+version="1.0.0"
+displayName="Cheesecake Mod"
+displayURL="https://github.com/mishaogirok/cheesecake-mod"
+updateJSONURL=""
+logoFile=""
+credit="Created by mishaogirok"
+author="mishaogirok"
+description="A delicious Minecraft Forge mod that adds cheesecake items and blocks!"
+
+[[dependencies.cheesecake]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cheesecake]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
